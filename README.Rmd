@@ -1,0 +1,29 @@
+---
+title: "Soil spectroscopy ring trial"
+output: 
+  github_document:
+    toc: true
+    toc_depth: 4
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+[<img src="img/soilspec4gg-logo_fc.png" alt="SoilSpec4GG logo" width="250"/>](https://soilspectroscopy.org/)
+
+[<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />](http://creativecommons.org/licenses/by/4.0/)
+
+# Overview
+
+This is a wrapper for all the soil spectroscopy ring trial repositories available on [GitHub](https://github.com/soilspectroscopy). The ring trial is a network established by the [Soil Spectroscopy for Global Good](https://soilspectroscopy.org/) to understand the lab-to-lab variability and propose effective solutions for better interoperability. For this, a set of soil standard samples (n=70) were prepared at [Woodwell Climate Research Center](https://www.woodwellclimate.org/) and shipped to several laboratories across five continents. You can learn more about the FT-MIR interlaboratory comparision in this publication:
+
+> Safanelli, J.L. et al. An interlaboratory comparison of mid-infrared spectra acquisition: Instruments and procedures matter, Geoderma, Volume 440, 2023, 116724, ISSN 0016-7061, https://doi.org/10.1016/j.geoderma.2023.116724.
+
+# Ring trial repositories
+
+- [**ringtrial-preprocessing**](https://github.com/soilspectroscopy/ringtrial-preprocessing): code for preparing the MIR returns with preprocessing and spectral standardizaton for further analysis. Spectral harmonization is ommited to avoid publicly disclosing laboratories information.  
+- [**ringtrial-eda**](https://github.com/soilspectroscopy/ringtrial-eda): code for exploring the instruments variability with visual inspection, PCA projection, correlation spectra, correlation matrices, and dissimilarity analysis.  
+- [**ringtrial-modeling**](https://github.com/soilspectroscopy/ringtrial-modeling): code for assessing the prediction performance of different instrumentss.  
+- [**ringtrial-metadata**](https://github.com/soilspectroscopy/ringtrial-metadata): code for analyzing the metadata of different instruments.
+- [**ringtrial-stats**](https://github.com/soilspectroscopy/ringtrial-stats): code for running statistical tests on the variations found of the ring trial instruments.  
+
