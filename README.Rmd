@@ -21,7 +21,7 @@ This is a wrapper for all the soil spectroscopy ring trial repositories availabl
 
 # Ring trial repositories
 
-- [**ringtrial-preprocessing**](https://github.com/soilspectroscopy/ringtrial-preprocessing): code for preparing the MIR returns with preprocessing and spectral standardizaton for further analysis. Spectral harmonization is ommited to avoid publicly disclosing laboratories information.  
+- [**ringtrial-preprocessing**](https://github.com/soilspectroscopy/ringtrial-preprocessing): code for preparing the MIR returns with preprocessing and spectral standardizaton for further analysis. Spectral harmonization is omitted to avoid publicly disclosing laboratories information.  
 - [**ringtrial-eda**](https://github.com/soilspectroscopy/ringtrial-eda): code for exploring the instruments variability with visual inspection, PCA projection, correlation spectra, correlation matrices, and dissimilarity analysis.  
 - [**ringtrial-modeling**](https://github.com/soilspectroscopy/ringtrial-modeling): code for assessing the prediction performance of different instruments.  
 - [**ringtrial-metadata**](https://github.com/soilspectroscopy/ringtrial-metadata): code for analyzing the metadata of different instruments.

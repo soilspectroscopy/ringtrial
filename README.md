@@ -30,7 +30,7 @@ more about the FT-MIR interlaboratory comparision in this publication:
 
 - [**ringtrial-preprocessing**](https://github.com/soilspectroscopy/ringtrial-preprocessing):
   code for preparing the MIR returns with preprocessing and spectral
-  standardizaton for further analysis. Spectral harmonization is ommited
+  standardizaton for further analysis. Spectral harmonization is omitted
   to avoid publicly disclosing laboratories information.  
 - [**ringtrial-eda**](https://github.com/soilspectroscopy/ringtrial-eda):
   code for exploring the instruments variability with visual inspection,
@@ -38,7 +38,7 @@ more about the FT-MIR interlaboratory comparision in this publication:
   dissimilarity analysis.  
 - [**ringtrial-modeling**](https://github.com/soilspectroscopy/ringtrial-modeling):
   code for assessing the prediction performance of different
-  instrumentss.  
+  instruments.  
 - [**ringtrial-metadata**](https://github.com/soilspectroscopy/ringtrial-metadata):
   code for analyzing the metadata of different instruments.
 - [**ringtrial-stats**](https://github.com/soilspectroscopy/ringtrial-stats):
